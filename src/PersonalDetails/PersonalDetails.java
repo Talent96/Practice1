@@ -9,7 +9,7 @@ public class PersonalDetails {
         this.firstName = firstName;
         this.lastName = lastName;
         this.location = location;
-        this.phoneNumber = phoneNumber;
+        this.phoneNumber =  phoneNumber;
     }
     public void setFirstName(String firstName){
         this.firstName = firstName;
