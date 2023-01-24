@@ -6,7 +6,7 @@ public class ArrayAverage {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double[] grade = new double[5];
-        System.out.println("Please Enter " + grade.length + "values");
+        System.out.println("Please Enter " + grade.length + "Grades");
         double sum = 0;
         for(int i = 0; i< grade.length ; i++){
             grade[i] = input.nextDouble();
