@@ -23,8 +23,8 @@ public class ArrayAverage {
             if (grade[i] < min) min = grade[i];
 
         }
-        System.out.printf("The maximum value is:%f%n ",max);
-        System.out.printf("The minimum number is:%f%n ",min);
+        System.out.printf("The maximum grade is:%f%n ",max);
+        System.out.printf("The minimum grade is:%f%n ",min);
     }
 
 }
