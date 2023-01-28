@@ -8,7 +8,7 @@ public class GuessNumber{
         Scanner scanner = new Scanner(System.in);
         System.out.println("Guess a magic number between 0  and 5");
         int guess = 0;
-        while (guess != number) {
+        while (guess != number){
             System.out.println("Enter your guess: ");
             guess = scanner.nextInt();
             if (guess == number)
