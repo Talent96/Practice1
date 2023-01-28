@@ -2,7 +2,7 @@ package PersonalDetails;
 
 import java.util.Scanner;
 
-public class GuessNumber {
+public class GuessNumber{
     public static void main(String[] args) {
         int number = (int) (Math.random() * 5);
         Scanner scanner = new Scanner(System.in);
